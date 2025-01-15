@@ -6,12 +6,12 @@
 
 echo "Please enter your name:"
 
-read name
+read givenname
 
-echo "Username entered is: $name"
+echo "Username entered is: $givenname"
 
 echo "Please enter your password:"
 
-read -s password
+read -s pwd
 
-echo "Password entered is: $password"
+echo "Password entered is: $pwd"
