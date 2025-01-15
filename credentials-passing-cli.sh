@@ -14,4 +14,6 @@ echo "Please enter your password:"
 
 read -s pwd
 
-echo "Password entered is: $pwd"
+# echo "Password entered is: $pwd"
+
+echo "User is logged-in successfully"
