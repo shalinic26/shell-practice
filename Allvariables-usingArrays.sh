@@ -20,4 +20,4 @@ echo "Print all the tools available in the list: ${TOOLS[@]}" # o/p-> is display
 
 echo "Print all the cloud providers available in the list: ${CLOUDPROVIDERS[@]}"
 
-echo "Output the total number of tools in list: $#{TOOLS}"
+echo "Output the total number of tools in list: $#"
