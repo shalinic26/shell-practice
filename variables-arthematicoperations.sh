@@ -4,7 +4,7 @@ X=50
 
 Y=50
 
-MUL=$(($X+$Y))
+MUL=$(($X\*$Y))
 
-echo "The sum of 2 numbers is: $MUL"
+echo "The product of 2 numbers is: $MUL"
 
