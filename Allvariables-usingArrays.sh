@@ -20,4 +20,7 @@ echo "Print all the tools available in the list: ${TOOLS[@]}" # o/p-> is display
 
 echo "Print all the cloud providers available in the list: ${CLOUDPROVIDERS[@]}"
 
-echo "Output the total number of tools in list: $#"
+echo "Output the total number of arguments passed in this script: $#" # the o/p-> will be 0 as we are not Passing any arguments for this script
+
+# NOTE: $# ---Is NOT ABOUT COUNT OF THE NUMBER OF VARIABLES PRESENT IN THE ARRAY. 
+# ITS MORE ABOUT HOW MANY ARGUMENTS WE ARE GIVING TO THE SCRIPT
