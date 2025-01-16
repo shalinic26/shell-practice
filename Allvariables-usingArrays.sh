@@ -29,6 +29,19 @@
 
 # SCRIPT FOR On FLY VARIABLES
 
-DEVOPSTOOLS=($1 $2 $3)
+DEVOPSTOOLS=($1 $2 $3) # While runnign the script i passed 3 arguments as Terraform Docker Kubernetes
 
-echo "The aguments sent for tools are: $#"
+echo "The aguments sent for tools are: $#" # o/p-> The aguments sent for tools are: 3
+
+echo "Print all the tools passed in as arguments for: ${DEVOPSTOOLS[@]}"
+
+echo "The script name is: $0"
+
+echo "The user name info: $USER"
+
+echo "The home directory path: $HOME"
+
+echo "The present working directory: $PWD" ### NEed to remember that i need to write pwd in CAPITALS
+
+echo "The process id of current script: $$"
+
