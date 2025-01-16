@@ -1,9 +1,11 @@
 #!/bin/bash
 
-TOOLS=['Terraform', 'Docker', 'Kubernetes']
+TOOLS=('Terraform', 'Docker', 'Kubernetes')
 
-CLOUDPROVIDERS=['AWS', 'Azure', 'Google']
+CLOUDPROVIDERS=('AWS', 'Azure', 'Google')
 
-echo "The first tool name: $TOOLS(0)"
+echo "The first tool name: $TOOLS[0]"
 
-echo "All the tools available in the list: $(TOOLS(@))"
+echo "Print all the tools available in the list: $TOOLS[@]"
+
+echo "Output the total number of tools in list: $TOOLS[#]"
