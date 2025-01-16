@@ -31,4 +31,4 @@
 
 DEVOPSTOOLS=($1 $2 $3)
 
-echo "The aguments sent for tools are: ${DEVOPSTOOLS[@]}"
+echo "The aguments sent for tools are: $#"
