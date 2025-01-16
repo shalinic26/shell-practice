@@ -1,10 +1,10 @@
 #!/bin/bash
 
-X=$1
+X=50
 
-Y=$2
+Y=50
 
 MUL=$(($X+$Y))
 
-echo "The product of 2 numbers is: $MUL"
+echo "The sum of 2 numbers is: $MUL"
 
